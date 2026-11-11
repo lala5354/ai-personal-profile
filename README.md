@@ -100,3 +100,11 @@
 - **版本规范**：见 `CONVENTIONS.md`
 - **待办跟踪**：仓库 **Issues**（模板见 `.github/ISSUE_TEMPLATE/todo.md`）
 - **变更留痕**：`git log` 看历史，`git revert <sha>` 回退任意一次修改
+
+---
+
+## 知识库同步（2026-11-11 起）
+
+本公开仓库**只放可公开档案与开工契约**。完整知识沉淀在私有仓库 `lala5354/ai-knowledge-vault`，本地工作区为 `D://桌面//AI协作库`（Obsidian vault + git 工作区），由 `tools/sync-vault.py` 双向同步：收口即时同步 + 每天 4 次定时兜底。
+
+任何 AI 开工前先读本仓库 `AGENTS.md`；在罗印本机则以 `D://桌面//AI协作库//AGENTS.md` 为准。
